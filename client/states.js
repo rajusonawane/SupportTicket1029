@@ -33,5 +33,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.homecaptivating', {
+        views: {
+            app: {
+                controller: 'app_homecaptivating',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.homecaptivating');
+                }
+            }
+        }
     });
 });

@@ -20,6 +20,13 @@
       "name": "multiselect",
       "sourceAppId": "_blank",
       "sourceScreenId": "app.multiselect"
+    },
+    {
+      "id": "homecaptivating",
+      "name": "Home-Captivating",
+      "sourceScreenId": "app.home.homecaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "homecaptivating"
     }
   ],
   "sourceAppId": "_blank",
